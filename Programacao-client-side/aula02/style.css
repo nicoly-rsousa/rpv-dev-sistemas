@@ -1,0 +1,40 @@
+.sans-serif {
+    font-family: sans-serif;
+}
+
+/* 
+-- As classes e as tags ficarão na cor vermelha
+.ingredientes, h1, h2, li{
+    color: red;
+} */
+
+/* 
+-- As tags h2 que estivere dentro uma outra tag que possua a a classe .ingredientes ficará na cor amarela.
+.ingredientes > h2 {
+    color: yellow;
+} */
+#ingredientes {
+    background-color: rgba(0, 128, 0, 0.395);
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+#modo-de-preparo {
+    background-color: rgba(0, 76, 255, 0.469);
+    
+
+    font-family: sans-serif;
+}
+
+.red {
+    color: red;
+}
+
+#texto {
+    font-family: sans-serif;
+    font-size: 60px;
+}
+
+.yellow {
+    color: yellow;
+}
