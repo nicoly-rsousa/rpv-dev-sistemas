@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-header {
+    background-color: #e0e0e0; 
+    padding: 40px 20px;
+    position: relative;
+    text-align: center;
+}
+
+.card-header img {
+    width: 100%;
+    height: auto;
+}
+
+
+.badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: black;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.card-body {
+    padding: 25px;
+}
+
+.card-body h1 {
+    font-size: 22px;
+    color: #001d3d;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+
+.footer-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.old-price {
+    display: block;
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #999;
+}
+
+.new-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.btn-add {
+    background-color: #0f172a;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-add:hover {
+    background-color: #1e293b;
+    transform: scale(1.05);
+}
