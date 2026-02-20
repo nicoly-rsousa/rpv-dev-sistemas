@@ -1,0 +1,118 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color:   rgb(138, 163, 245);
+}
+.navbar{
+    display:flex;
+    background-color: black;
+    padding: 20px;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.logo{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: auto; /* empurra os itens para a direita */
+
+}
+.navitem{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;  /* cria um espaço entre os itens*/
+    align-items: first baseline;
+    align-content: center;
+
+}
+.nav-active{
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
+
+main{
+    padding: 20px;
+    color: white;
+}
+/*CSS CARD*/
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eef1f6;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  width: 480px;
+  padding: 32px 36px 36px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+  border-top: 5px solid #1a2340;
+  animation: fadeUp 0.5s ease both;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.badge {
+  display: inline-block;
+  background: #fef3c7;
+  color: #b45309;
+  font-family: 'Sora', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 4px 12px;
+  border-radius: 999px;
+  margin-bottom: 24px;
+}
+
+.icon {
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.title {
+  font-family: 'Sora', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #1a2340;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #94a3b8;
+  margin-bottom: 24px;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #e8ecf2;
+  margin-bottom: 24px;
+}
+
+.description {
+  font-size: 15px;
+  color: #4b5778;
+  line-height: 1.7;
+}
