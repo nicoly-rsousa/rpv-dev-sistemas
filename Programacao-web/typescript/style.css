@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+body {
+    background-color: #202020;
+    color: #fafafa;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    flex-direction: column;
+    gap: 8px;
+}
+
+.inputWrapper {
+    display: flex;
+    gap: 8px;
+
+    button {
+        max-height: 20px;
+    }
+}
+
+.input {
+    min-height: 100px;
+    position: relative;
+
+    span {
+        position: absolute;
+        color: red;
+        font-size: 8px;
+        top: 20px;
+        left: 0;
+    }
+}

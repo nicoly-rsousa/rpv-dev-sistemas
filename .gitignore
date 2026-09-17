@@ -1,6 +1,7 @@
 *.exe
 *.obj
 .vscode/
+node_modules
 bin/
 obj/
 node_modules/
